@@ -170,6 +170,15 @@
                 android:icon="@drawable/ic_settings_security"
                 />
 
+        <!-- Custom Privacy Settings -->
+        <!-- This is the 'real' Privacy items and includes Privacy Guard, Blacklist & WhisperPush -->
+        <dashboard-tile
+                android:id="@+id/privacy_settings_custom"
+                android:title="@string/privacy_settings_custom_title"
+                android:fragment="com.android.settings.custom.PrivacySettings"
+                android:icon="@drawable/ic_settings_privacy"
+                />
+
         <!-- Account -->
         <dashboard-tile
                 android:id="@+id/account_settings"
