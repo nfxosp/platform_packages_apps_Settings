@@ -6479,6 +6479,10 @@
    <string name="imei_information_title">IMEI information</string>
    <string name="imei_information_summary">IMEI relative information</string>
    <string name="slot_number">(Slot<xliff:g id="slot_num">%1$d</xliff:g>)</string>
+   
+   <!-- Advanced reboot options -->
+   <string name="advanced_reboot_title">Advanced reboot</string>
+   <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery or download</string>
 
    <!-- New strings needed for App Info 2 -->
    <!-- Preference label for app default launch settings [CHAR LIMIT=35]-->
