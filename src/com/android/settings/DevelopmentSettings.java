@@ -261,7 +261,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private ColorModePreference mColorModePreference;
 
-    private PreferenceScreen mProcessStats;
     private ListPreference mRootAccess;
     private Object mSelectedRootValue;
 
