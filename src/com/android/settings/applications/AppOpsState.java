@@ -172,14 +172,12 @@ public class AppOpsState {
                     AppOpsManager.OP_WIFI_CHANGE,
                     AppOpsManager.OP_BLUETOOTH_CHANGE,
                     AppOpsManager.OP_NFC_CHANGE,
-                    AppOpsManager.OP_DATA_CONNECT_CHANGE,
-                    AppOpsManager.OP_ALARM_WAKEUP },
+                    AppOpsManager.OP_DATA_CONNECT_CHANGE },
             new boolean[] { true,
                     true,
                     true,
                     true,
-                    true,
-                    false }
+                    true }
             );
 
     public static final OpsTemplate BOOTUP_TEMPLATE = new OpsTemplate(
